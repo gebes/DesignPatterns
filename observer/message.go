@@ -1,4 +1,4 @@
-package main
+package observer
 
 type Event struct {
 	Name        string
