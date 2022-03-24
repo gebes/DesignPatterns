@@ -4,10 +4,8 @@
  
 ## Patterns finished
  * Observer
- 
-## Patterns with work in progress
- * Decorator
+ * Builder
  
 ## Planned patterns
  * Singleton
- * Builder
+ * Decorator
