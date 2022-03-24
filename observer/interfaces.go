@@ -1,4 +1,4 @@
-package observer
+package main
 
 type Observer[T any] func(event T)
 
