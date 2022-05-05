@@ -3,6 +3,6 @@ package main
 type Observer[T any] func(event T)
 
 type Source[T any] interface {
-	AddObserver(observer Observer[T])
+	Subscribe(observer Observer[T])
 	NotifyObservers(event T)
 }

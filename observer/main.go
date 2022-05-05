@@ -8,7 +8,7 @@ func main() {
 
 	var observer Source[Event] = &EventSource{}
 
-	observer.AddObserver(func(event Event) {
+	observer.Subscribe(func(event Event) {
 		log.Println("Received a \"" + event.Name + "\" event")
 	})
 
